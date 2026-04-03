@@ -1,0 +1,21 @@
+{
+  "model": "opus[1m]",
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true,
+    "playwright@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
+    }
+  }
+}
