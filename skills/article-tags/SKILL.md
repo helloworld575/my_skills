@@ -17,7 +17,7 @@ Extract 6 precise, high-value tags covering topic, technology, and audience.
 
 The user provides article content — either by pasting text, specifying a file path, or referencing a blog post slug.
 
-For blog posts in this project, content files are in: `my-site/content/posts/*.md`
+For blog posts, content files are typically in: `content/posts/*.md`
 
 ## Tag Selection Rules
 

@@ -1,0 +1,31 @@
+{
+  "name": "thomaslee-skills",
+  "owner": {
+    "name": "ThomasLee"
+  },
+  "metadata": {
+    "description": "Blog content generation and Chinese fortune-telling skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "thomaslee-skills",
+      "description": "Article writing tools and Chinese metaphysics divination skills",
+      "source": "./",
+      "strict": true,
+      "skills": [
+        "./skills/article-brief",
+        "./skills/article-faq",
+        "./skills/article-polish",
+        "./skills/article-structure",
+        "./skills/article-tags",
+        "./skills/article-title",
+        "./skills/article-translate-en",
+        "./skills/bazi-fortune",
+        "./skills/liuyao-fortune",
+        "./skills/meihua-fortune",
+        "./skills/ziwei-fortune"
+      ]
+    }
+  ]
+}

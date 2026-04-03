@@ -16,7 +16,7 @@ user_invocable: true
 ## 计算命盘
 
 ```bash
-node /Users/bytedance/claude_place/my-site/.claude/skills/bazi-fortune/scripts/calc.js <year> <month> <day> <hour>
+node {baseDir}/scripts/calc.js <year> <month> <day> <hour>
 ```
 
 ## 展示结果

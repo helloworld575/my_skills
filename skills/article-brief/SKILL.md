@@ -17,7 +17,7 @@ Create a compelling 1-2 sentence excerpt that makes readers want to click throug
 
 The user provides article content — either by pasting text, specifying a file path, or referencing a blog post slug. If a file path or slug is given, read the content first.
 
-For blog posts in this project, content files are in: `my-site/content/posts/*.md`
+For blog posts, content files are typically in: `content/posts/*.md`
 
 ## Rules
 

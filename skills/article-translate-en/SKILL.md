@@ -17,7 +17,7 @@ Translate a Chinese blog post to fluent, natural English that reads as if origin
 
 The user provides article content — either by pasting text, specifying a file path, or referencing a blog post slug.
 
-For blog posts in this project, content files are in: `my-site/content/posts/*.md`
+For blog posts, content files are typically in: `content/posts/*.md`
 
 ## Translation Principles
 

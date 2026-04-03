@@ -1,32 +1,41 @@
-# My Skills
+# ThomasLee Skills
 
-Claude / Kiro 自定义配置备份仓库。
+Claude Code marketplace plugin — blog content tools and Chinese fortune-telling skills.
 
-## 目录结构
+## Skills
+
+### Article Skills
+
+| Skill | Trigger | Description |
+|-------|---------|-------------|
+| `article-brief` | /article-brief, 生成摘要 | Generate compelling 1-2 sentence excerpt |
+| `article-faq` | /article-faq, 生成FAQ | Generate 5 Q&A pairs for article |
+| `article-polish` | /article-polish, 润色文章 | Deep rewrite for clarity and engagement |
+| `article-structure` | /article-structure, 重构结构 | Restructure for maximum readability |
+| `article-tags` | /article-tags, 提取标签 | Extract 6 precise tags |
+| `article-title` | /article-title, 生成标题 | Generate 5 SEO-optimized title variations |
+| `article-translate-en` | /article-translate-en, 翻译为英文 | Translate Chinese article to English |
+
+### Fortune Skills (中国传统命理)
+
+| Skill | Trigger | Description |
+|-------|---------|-------------|
+| `bazi-fortune` | 八字、四柱、命理 | 八字命理分析 (Four Pillars) |
+| `liuyao-fortune` | 六爻、占卜、卦象 | 周易六爻占卜 (I Ching Liu Yao) |
+| `meihua-fortune` | 梅花易数、体卦用卦 | 梅花易数占卜 (Plum Blossom Numerology) |
+| `ziwei-fortune` | 紫微斗数、命宫 | 紫微斗数分析 (Purple Star Astrology) |
+
+## Project Structure
 
 ```
-├── global/                          # 全局 ~/.claude/ 配置
-│   └── .claude/settings.json
-├── my-site/                         # my-site 项目配置
-│   ├── .claude/
-│   │   ├── settings.local.json
-│   │   ├── plans/                   # 执行计划
-│   │   └── skills/                  # 自定义 Skills
-│   │       ├── article-brief/       # 生成文章摘要
-│   │       ├── article-faq/         # 生成 FAQ
-│   │       ├── article-polish/      # 文章润色
-│   │       ├── article-structure/   # 文章结构优化
-│   │       ├── article-tags/        # 提取标签
-│   │       ├── article-title/       # 生成标题
-│   │       ├── article-translate-en/# 中译英
-│   │       ├── bazi-fortune/        # 八字命理
-│   │       ├── liuyao-fortune/      # 六爻占卜
-│   │       ├── meihua-fortune/      # 梅花易数
-│   │       └── ziwei-fortune/       # 紫微斗数
-│   └── .kiro/
-│       └── steering/ai.md          # Kiro AI 配置
+├── .claude-plugin/marketplace.json   # Plugin registration
+├── CLAUDE.md                         # Project docs for Claude
+├── skills/                           # All skills
+│   ├── article-*/                    # Blog content skills
+│   └── *-fortune/                    # Fortune-telling skills (with scripts/)
+└── configs/                          # Settings backup from other projects
 ```
 
-## 恢复方式
+## Installation
 
-将对应目录下的 `.claude/` 或 `.kiro/` 复制到目标项目根目录即可。
+Add this repo as a Claude Code plugin, or copy `skills/` into your project's `.claude/skills/`.

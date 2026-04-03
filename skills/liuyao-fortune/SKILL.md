@@ -19,9 +19,9 @@ user_invocable: true
 
 ```bash
 # 随机
-node /Users/bytedance/claude_place/my-site/.claude/skills/liuyao-fortune/scripts/calc.js random
+node {baseDir}/scripts/calc.js random
 # 时间
-node /Users/bytedance/claude_place/my-site/.claude/skills/liuyao-fortune/scripts/calc.js time <year> <month> <day> <hour>
+node {baseDir}/scripts/calc.js time <year> <month> <day> <hour>
 ```
 
 ## 展示卦象

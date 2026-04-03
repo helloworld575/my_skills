@@ -17,7 +17,7 @@ Generate 5 high-converting, SEO-optimized title variations using different frame
 
 The user provides article content — either by pasting text, specifying a file path, or referencing a blog post slug.
 
-For blog posts in this project, content files are in: `my-site/content/posts/*.md`
+For blog posts, content files are typically in: `content/posts/*.md`
 
 ## Title Frameworks (use one per title)
 
